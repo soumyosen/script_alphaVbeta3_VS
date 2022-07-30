@@ -1,0 +1,1 @@
+"${SCHRODINGER}/run" -FROM psp binding_pose_metadynamics.py metadynamics_binding_AS45_a.maegz -ligand_asl 'mol.num 3' -ntrial 10 -jobname metadynamics_binding_AS45_a -SUBHOST Chimera-multisim:10 -HOST gpu-FEPdriver:4 -TMPDIR /sc/arion/scratch/sens05/.tmp_schrodinger/
